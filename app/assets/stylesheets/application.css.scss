@@ -47,6 +47,19 @@ h1, h2, h3 {
         opacity: 0.75;
     }
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: white;
+    
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+        background-color: #363795;
+    }
+}
+
 // home page styles
 .home-callout {
     color: white;
